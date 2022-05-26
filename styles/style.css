@@ -1,3 +1,8 @@
+
+/*Just begging there are way too many classes obviously way more styles than needed*/
+
+/*Look you cant do too much changing or playing around here without stuffing up the actual display and having to change your html but next time take it slower and think, it makes feel slower but you dont ne
+need to do this much typing for what can be done in half or even a third of the amount of typing you done*/
 * {
     box-sizing: border-box;
 }
@@ -5,6 +10,7 @@ body {
     background-color: rgb(0,0,0);
     text-align: center;
     padding-top: 25.5px;
+    /*I should have set the entire body text color to white, it didnt work cause of all your div's*/
 }
 
 header span {
