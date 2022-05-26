@@ -20,14 +20,4 @@ header div a {
 
 .bottom-half {
     color: rgb(255,255,255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.bottom-half span{
-    font-weight: 300;
-    font-size: 2.625em;
-}
-
-.bottom-half p{
-    color: rgb(138, 138, 138)
 }
