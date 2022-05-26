@@ -1,11 +1,14 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(0,0,0);
     text-align: center;
-    padding-top: 27px;
+    padding-top: 25.5px;
 }
 
-header {
-    /*text-align: center;*/
+header span {
+    padding-bottom: 20px;
 }
 
 header span, footer span{
@@ -14,14 +17,29 @@ header span, footer span{
     color: rgb(255,255,255);
 }
 
+
+header div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 38.5px;
+    padding-bottom: 16px;
+    font-size: 1em;
+    color: aquamarine;
+    
+}
 header div a, footer div a{
     color: aquamarine;
-    font-size: 1em;
+    
+}
+
+.cell-phone{
+    padding-top: 7.5px;
+    padding-left: 5px;
 }
 
 .bottom-half {
     color: rgb(255,255,255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
 }
 
 .bottom-half span{
@@ -31,14 +49,39 @@ header div a, footer div a{
 
 .bottom-half p{
     color: rgb(138, 138, 138);
+    font-size: 1.3120em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 21px 0;
 }
 
 .camp-img img{
-    width: 46.5%;
-    margin-bottom: 12px;
+    width: 896px;
+    height: 527px;
+    margin: 21px 0;
 }
 
 .camp-img img[alt="cartoon of image"]{
     width: 64px;
     height: 108px ;
+}
+
+footer span{
+    margin: 34.860px 0;
+    font-size: 2.6250em;
+}
+
+
+footer div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    
+}
+
+.copyright{
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    text-align: right;
+    margin: 21px;
+    margin-right: -3px;
 }
